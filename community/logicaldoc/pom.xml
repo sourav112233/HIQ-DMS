@@ -6,6 +6,10 @@
         <artifactId>logicaldoc-parent-pom</artifactId>
         <version>99</version>
     </parent> -->
+    <properties>
+    <maven.compiler.target>17</maven.compiler.target>
+    <maven.compiler.source>17</maven.compiler.source>
+</properties>
     <groupId>com.logicaldoc</groupId>
     <artifactId>logicaldoc</artifactId>
     <version>8.7.3</version>
