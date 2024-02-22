@@ -18,7 +18,7 @@
 	<properties>
 	    <opencmis.version>0.14.0</opencmis.version>
 	</properties>
-
+<dependencyManagement>
 	<dependencies>
 	    <dependency>
             <groupId>javax.activation</groupId>
@@ -122,6 +122,7 @@
 			<scope>provided</scope>
 		</dependency>
 	</dependencies>
+</dependencyManagement>
 
 	<build>
 		<plugins>
