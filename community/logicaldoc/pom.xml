@@ -113,7 +113,7 @@
         <module>logicaldoc-webservicesamples</module>
     </modules>
     <!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-slf4j-impl -->
-    
+    <dependencyManagement>
 	<dependencies>
 <dependency>
     <groupId>org.apache.logging.log4j</groupId>
@@ -123,4 +123,5 @@
 </dependency>
 
     </dependencies>
+    </dependencyManagement>
 </project>
