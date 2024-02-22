@@ -145,7 +145,7 @@ public class LoginPanel extends VLayout {
 		if (info.getBranding().getUrl() != null && !"-".equals(info.getBranding().getUrl()))
 			productInfoHtml = "<a href='" + info.getBranding().getUrl() + "' target='_blank' class='login-link'>"
 					+ productInfoHtml + "</a>";
-		HTMLFlow productInfo = new HTMLFlow(productInfoHtml);
+		//HTMLFlow productInfo = new HTMLFlow(productInfoHtml);
 		productInfo.setHeight(16);
 		productInfo.setWidth(COLUMN_WIDTH);
 		productInfo.setStyleName("login-product");
