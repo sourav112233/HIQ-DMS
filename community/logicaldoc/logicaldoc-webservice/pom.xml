@@ -10,6 +10,7 @@
 	<artifactId>logicaldoc-webservice</artifactId>
 	<name>logicaldoc-webservice</name>
 	<packaging>jar</packaging>
+	<dependencyManagement>
 	<dependencies>
 		<dependency>
 			<groupId>com.logicaldoc</groupId>
@@ -262,6 +263,7 @@
 			<scope>provided</scope>
 		</dependency>				
 	</dependencies>
+	</dependencyManagement>
 	<build>
 		<plugins>
 			<plugin>
