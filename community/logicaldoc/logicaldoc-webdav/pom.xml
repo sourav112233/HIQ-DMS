@@ -9,6 +9,7 @@
     <artifactId>logicaldoc-webdav</artifactId>
     <name>logicaldoc-webdav</name>
     <packaging>jar</packaging>
+	<dependencyManagement>
     <dependencies>
         <dependency>
             <groupId>javax.servlet</groupId>
@@ -97,6 +98,7 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+	</dependencyManagement>
     <build>
         <plugins>
             <plugin>
