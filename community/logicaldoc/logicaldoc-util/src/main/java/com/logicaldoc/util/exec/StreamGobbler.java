@@ -8,10 +8,10 @@ import java.io.InputStreamReader;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-/**
- * When Runtime.exec() won't.
- * http://www.javaworld.com/javaworld/jw-12-2000/jw-1229-traps.html
- */
+
+ When Runtime.exec() won't.
+ http://www.javaworld.com/javaworld/jw-12-2000/jw-1229-traps.html
+ 
 public class StreamGobbler extends Thread {
 
 	private InputStream is;
