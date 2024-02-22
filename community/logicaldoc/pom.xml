@@ -85,7 +85,7 @@
             </roles>
             <timezone>+0</timezone>
         </developer>
-    </developers>
+    </developers> -->
     <scm>
         <connection>scm:svn:https://logicaldoc.svn.sourceforge.net/svnroot/logicaldoc/community/logicaldoc/trunk</connection>
         <developerConnection>scm:svn:https://logicaldoc.svn.sourceforge.net/svnroot/logicaldoc/community/logicaldoc/trunk</developerConnection>
@@ -104,5 +104,5 @@
         <module>logicaldoc-android</module>
         <module>logicaldoc-webapp</module>
         <module>logicaldoc-webservicesamples</module>
-    </modules> -->
+    </modules>
 </project>
