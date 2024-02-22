@@ -336,7 +336,7 @@
 						</configuration>
 					</execution>
 				</executions>
-				<dependencyManagement>
+				
 				<dependencies>
 					<dependency>
 						<groupId>ant</groupId>
@@ -354,7 +354,7 @@
 						<version>1.4</version>
 					</dependency>
 				</dependencies>
-				</dependencyManagement>
+				
 			</plugin>
 		</plugins>
 	</build>
