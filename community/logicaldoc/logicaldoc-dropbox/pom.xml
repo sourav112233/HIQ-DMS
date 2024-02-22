@@ -10,6 +10,7 @@
 	<artifactId>logicaldoc-dropbox</artifactId>
 	<name>logicaldoc-dropbox</name>
 	<packaging>jar</packaging>
+	<dependencyManagement>
 	<dependencies>
 		<dependency>
 			<groupId>net.sf.jpf</groupId>
@@ -133,6 +134,7 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
+	</dependencyManagement>
 	<build>
 		<plugins>
 			<plugin>
