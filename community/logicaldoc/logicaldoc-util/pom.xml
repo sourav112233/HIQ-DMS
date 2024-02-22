@@ -11,6 +11,7 @@
 	<artifactId>logicaldoc-util</artifactId>
 	<name>logicaldoc-util</name>
 	<packaging>jar</packaging>
+	<dependencyManagement>
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework</groupId>
@@ -175,4 +176,5 @@
 			<artifactId>log4j-core</artifactId>
 		</dependency>								
 	</dependencies>
+	</dependencyManagement>
 </project>
