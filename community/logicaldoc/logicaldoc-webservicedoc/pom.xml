@@ -12,7 +12,8 @@
     <properties>
         <cxf.swagger.ui.version>3.38.0</cxf.swagger.ui.version>
         <cxf.swagger.v3.version>2.1.6</cxf.swagger.v3.version>    
-    </properties>    
+    </properties> 
+	<dependencyManagement>
     <dependencies>
         <dependency>
             <groupId>com.logicaldoc</groupId>
@@ -183,6 +184,7 @@
 		</dependency>					
 		
     </dependencies>
+	</dependencyManagement>
     <build>
         <plugins>
             <plugin>
