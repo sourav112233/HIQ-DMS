@@ -9,14 +9,14 @@
     <groupId>com.logicaldoc</groupId>
     <artifactId>logicaldoc</artifactId>
     <version>8.7.3</version>
-    <packaging>pom</packaging>
+    <packaging>war</packaging>
     <name>logicaldoc</name>
     <description>LogicalDOC is an open-source enterprise class Document Management System developed by LogicalDOC Srl, based on the Java Platform.</description>
     <organization>
         <name>LogicalDOC</name>
         <url>http://www.logicaldoc.com</url>
     </organization>
-    <url>http://www.logicaldoc.com</url>
+<!--     <url>http://www.logicaldoc.com</url>
     <issueManagement>
         <system>Mantis</system>
         <url>http://bugs.logicaldoc.com</url>
@@ -104,5 +104,5 @@
         <module>logicaldoc-android</module>
         <module>logicaldoc-webapp</module>
         <module>logicaldoc-webservicesamples</module>
-    </modules>
+    </modules> -->
 </project>
