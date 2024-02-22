@@ -12,6 +12,7 @@
 	<name>logicaldoc-webservicesamples</name>
 	<packaging>jar</packaging>
 	<description>Web-Service samples project for LogicalDOC</description>
+	<dependencyManagement>
 	<dependencies>
 		<dependency>
 			<groupId>com.logicaldoc</groupId>
@@ -55,6 +56,7 @@
 			<artifactId>activation</artifactId>
 		</dependency>		
 	</dependencies>
+	</dependencyManagement>
 	<repositories>
 		<repository>
 			<id>central</id>
