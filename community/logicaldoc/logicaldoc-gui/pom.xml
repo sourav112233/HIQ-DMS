@@ -14,6 +14,7 @@
 	<properties>
 		<gwt.output.directory>./war</gwt.output.directory>
 	</properties>
+	<dependencyManagement>
 	<dependencies>
 		<dependency>
 			<groupId>com.google.gwt</groupId>
@@ -120,6 +121,7 @@
 			<artifactId>commons-io</artifactId>
 		</dependency>
 	</dependencies>
+	</dependencyManagement>
 	<build>
 		<outputDirectory>${gwt.output.directory}/WEB-INF/classes</outputDirectory>
 		<plugins>
@@ -334,6 +336,7 @@
 						</configuration>
 					</execution>
 				</executions>
+				<dependencyManagement>
 				<dependencies>
 					<dependency>
 						<groupId>ant</groupId>
@@ -351,6 +354,7 @@
 						<version>1.4</version>
 					</dependency>
 				</dependencies>
+				</dependencyManagement>
 			</plugin>
 		</plugins>
 	</build>
