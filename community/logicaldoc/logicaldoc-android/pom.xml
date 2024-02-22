@@ -11,6 +11,7 @@
 	<artifactId>logicaldoc-android</artifactId>
 	<name>logicaldoc-android</name>
 	<packaging>jar</packaging>
+	<dependencyManagement>
 	<dependencies>
 		<dependency>
 			<groupId>net.sf.jpf</groupId>
@@ -119,6 +120,7 @@
 			<scope>provided</scope>
 		</dependency>
 	</dependencies>
+	</dependencyManagement>
 	<build>
 		<plugins>
 			<plugin>
