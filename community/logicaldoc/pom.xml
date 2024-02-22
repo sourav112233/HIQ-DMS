@@ -6,13 +6,16 @@
         <artifactId>logicaldoc-parent-pom</artifactId>
         <version>99</version>
     </parent> -->
+    
+    <groupId>com.logicaldoc</groupId>
+    <artifactId>logicaldoc</artifactId>
+    <version>8.7.3</version>
+
     <properties>
     <maven.compiler.target>17</maven.compiler.target>
     <maven.compiler.source>17</maven.compiler.source>
 </properties>
-    <groupId>com.logicaldoc</groupId>
-    <artifactId>logicaldoc</artifactId>
-    <version>8.7.3</version>
+    
     <packaging>pom</packaging>
     <name>logicaldoc</name>
     <description>LogicalDOC is an open-source enterprise class Document Management System developed by LogicalDOC Srl, based on the Java Platform.</description>
